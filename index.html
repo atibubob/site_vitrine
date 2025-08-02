@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Site Vitrine</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MonSite</div>
+      <ul class="nav-links">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Bienvenue sur Mon Site Vitrine</h1>
+      <p>Je crée des sites modernes et performants</p>
+      <a href="#contact" class="btn">Contactez-moi</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Je suis un développeur web passionné, spécialisé dans la création de sites vitrines élégants et performants pour booster votre présence en ligne.</p>
+  </section>
+
+  <section id="services">
+    <h2>Mes Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Conception Web</h3>
+        <p>Création de sites modernes, responsives et optimisés.</p>
+      </div>
+      <div class="card">
+        <h3>Référencement</h3>
+        <p>Optimisation SEO pour améliorer votre visibilité sur Google.</p>
+      </div>
+      <div class="card">
+        <h3>Maintenance</h3>
+        <p>Suivi technique et mises à jour régulières.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <img src="images/projet1.jpg" alt="Projet 1" />
+      <img src="images/projet2.jpg" alt="Projet 2" />
+      <img src="images/projet3.jpg" alt="Projet 3" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="php/contact.php" method="POST">
+      <input type="text" name="nom" placeholder="Votre nom" required />
+      <input type="email" name="email" placeholder="Votre email" required />
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mon Site Vitrine - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
